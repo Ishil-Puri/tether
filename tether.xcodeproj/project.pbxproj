@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E98C96CD27E5233F0097DD70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C96CC27E5233F0097DD70 /* AppDelegate.swift */; };
+		E98C96CF27E5233F0097DD70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C96CE27E5233F0097DD70 /* SceneDelegate.swift */; };
+		E98C96D127E5233F0097DD70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C96D027E5233F0097DD70 /* ViewController.swift */; };
+		E98C96D427E5233F0097DD70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E98C96D227E5233F0097DD70 /* Main.storyboard */; };
+		E98C96D627E5233F0097DD70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98C96D527E5233F0097DD70 /* Assets.xcassets */; };
+		E98C96D927E5233F0097DD70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E98C96D727E5233F0097DD70 /* LaunchScreen.storyboard */; };
+		E98C96E427E5233F0097DD70 /* tetherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C96E327E5233F0097DD70 /* tetherTests.swift */; };
+		E98C96EE27E5233F0097DD70 /* tetherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C96ED27E5233F0097DD70 /* tetherUITests.swift */; };
+		E98C96F027E5233F0097DD70 /* tetherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C96EF27E5233F0097DD70 /* tetherUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E98C96E027E5233F0097DD70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E98C96C127E5233F0097DD70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E98C96C827E5233F0097DD70;
+			remoteInfo = tether;
+		};
+		E98C96EA27E5233F0097DD70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E98C96C127E5233F0097DD70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E98C96C827E5233F0097DD70;
+			remoteInfo = tether;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E98C96C927E5233F0097DD70 /* tether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tether.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98C96CC27E5233F0097DD70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E98C96CE27E5233F0097DD70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E98C96D027E5233F0097DD70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E98C96D327E5233F0097DD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E98C96D527E5233F0097DD70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E98C96D827E5233F0097DD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E98C96DA27E5233F0097DD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E98C96DF27E5233F0097DD70 /* tetherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tetherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98C96E327E5233F0097DD70 /* tetherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tetherTests.swift; sourceTree = "<group>"; };
+		E98C96E927E5233F0097DD70 /* tetherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tetherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98C96ED27E5233F0097DD70 /* tetherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tetherUITests.swift; sourceTree = "<group>"; };
+		E98C96EF27E5233F0097DD70 /* tetherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tetherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E98C96C627E5233F0097DD70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98C96DC27E5233F0097DD70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98C96E627E5233F0097DD70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E98C96C027E5233F0097DD70 = {
+			isa = PBXGroup;
+			children = (
+				E98C96CB27E5233F0097DD70 /* tether */,
+				E98C96E227E5233F0097DD70 /* tetherTests */,
+				E98C96EC27E5233F0097DD70 /* tetherUITests */,
+				E98C96CA27E5233F0097DD70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E98C96CA27E5233F0097DD70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E98C96C927E5233F0097DD70 /* tether.app */,
+				E98C96DF27E5233F0097DD70 /* tetherTests.xctest */,
+				E98C96E927E5233F0097DD70 /* tetherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E98C96CB27E5233F0097DD70 /* tether */ = {
+			isa = PBXGroup;
+			children = (
+				E98C96CC27E5233F0097DD70 /* AppDelegate.swift */,
+				E98C96CE27E5233F0097DD70 /* SceneDelegate.swift */,
+				E98C96D027E5233F0097DD70 /* ViewController.swift */,
+				E98C96D227E5233F0097DD70 /* Main.storyboard */,
+				E98C96D527E5233F0097DD70 /* Assets.xcassets */,
+				E98C96D727E5233F0097DD70 /* LaunchScreen.storyboard */,
+				E98C96DA27E5233F0097DD70 /* Info.plist */,
+			);
+			path = tether;
+			sourceTree = "<group>";
+		};
+		E98C96E227E5233F0097DD70 /* tetherTests */ = {
+			isa = PBXGroup;
+			children = (
+				E98C96E327E5233F0097DD70 /* tetherTests.swift */,
+			);
+			path = tetherTests;
+			sourceTree = "<group>";
+		};
+		E98C96EC27E5233F0097DD70 /* tetherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E98C96ED27E5233F0097DD70 /* tetherUITests.swift */,
+				E98C96EF27E5233F0097DD70 /* tetherUITestsLaunchTests.swift */,
+			);
+			path = tetherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E98C96C827E5233F0097DD70 /* tether */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98C96F327E5233F0097DD70 /* Build configuration list for PBXNativeTarget "tether" */;
+			buildPhases = (
+				E98C96C527E5233F0097DD70 /* Sources */,
+				E98C96C627E5233F0097DD70 /* Frameworks */,
+				E98C96C727E5233F0097DD70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tether;
+			productName = tether;
+			productReference = E98C96C927E5233F0097DD70 /* tether.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E98C96DE27E5233F0097DD70 /* tetherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98C96F627E5233F0097DD70 /* Build configuration list for PBXNativeTarget "tetherTests" */;
+			buildPhases = (
+				E98C96DB27E5233F0097DD70 /* Sources */,
+				E98C96DC27E5233F0097DD70 /* Frameworks */,
+				E98C96DD27E5233F0097DD70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E98C96E127E5233F0097DD70 /* PBXTargetDependency */,
+			);
+			name = tetherTests;
+			productName = tetherTests;
+			productReference = E98C96DF27E5233F0097DD70 /* tetherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E98C96E827E5233F0097DD70 /* tetherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98C96F927E5233F0097DD70 /* Build configuration list for PBXNativeTarget "tetherUITests" */;
+			buildPhases = (
+				E98C96E527E5233F0097DD70 /* Sources */,
+				E98C96E627E5233F0097DD70 /* Frameworks */,
+				E98C96E727E5233F0097DD70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E98C96EB27E5233F0097DD70 /* PBXTargetDependency */,
+			);
+			name = tetherUITests;
+			productName = tetherUITests;
+			productReference = E98C96E927E5233F0097DD70 /* tetherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E98C96C127E5233F0097DD70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E98C96C827E5233F0097DD70 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					E98C96DE27E5233F0097DD70 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = E98C96C827E5233F0097DD70;
+					};
+					E98C96E827E5233F0097DD70 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = E98C96C827E5233F0097DD70;
+					};
+				};
+			};
+			buildConfigurationList = E98C96C427E5233F0097DD70 /* Build configuration list for PBXProject "tether" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E98C96C027E5233F0097DD70;
+			productRefGroup = E98C96CA27E5233F0097DD70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E98C96C827E5233F0097DD70 /* tether */,
+				E98C96DE27E5233F0097DD70 /* tetherTests */,
+				E98C96E827E5233F0097DD70 /* tetherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E98C96C727E5233F0097DD70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98C96D927E5233F0097DD70 /* LaunchScreen.storyboard in Resources */,
+				E98C96D627E5233F0097DD70 /* Assets.xcassets in Resources */,
+				E98C96D427E5233F0097DD70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98C96DD27E5233F0097DD70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98C96E727E5233F0097DD70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E98C96C527E5233F0097DD70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98C96D127E5233F0097DD70 /* ViewController.swift in Sources */,
+				E98C96CD27E5233F0097DD70 /* AppDelegate.swift in Sources */,
+				E98C96CF27E5233F0097DD70 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98C96DB27E5233F0097DD70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98C96E427E5233F0097DD70 /* tetherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98C96E527E5233F0097DD70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98C96F027E5233F0097DD70 /* tetherUITestsLaunchTests.swift in Sources */,
+				E98C96EE27E5233F0097DD70 /* tetherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E98C96E127E5233F0097DD70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E98C96C827E5233F0097DD70 /* tether */;
+			targetProxy = E98C96E027E5233F0097DD70 /* PBXContainerItemProxy */;
+		};
+		E98C96EB27E5233F0097DD70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E98C96C827E5233F0097DD70 /* tether */;
+			targetProxy = E98C96EA27E5233F0097DD70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E98C96D227E5233F0097DD70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E98C96D327E5233F0097DD70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E98C96D727E5233F0097DD70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E98C96D827E5233F0097DD70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E98C96F127E5233F0097DD70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E98C96F227E5233F0097DD70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E98C96F427E5233F0097DD70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tether/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ishilp.tether;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E98C96F527E5233F0097DD70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tether/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ishilp.tether;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E98C96F727E5233F0097DD70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ishilp.tetherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tether.app/tether";
+			};
+			name = Debug;
+		};
+		E98C96F827E5233F0097DD70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ishilp.tetherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tether.app/tether";
+			};
+			name = Release;
+		};
+		E98C96FA27E5233F0097DD70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ishilp.tetherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tether;
+			};
+			name = Debug;
+		};
+		E98C96FB27E5233F0097DD70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ishilp.tetherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tether;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E98C96C427E5233F0097DD70 /* Build configuration list for PBXProject "tether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98C96F127E5233F0097DD70 /* Debug */,
+				E98C96F227E5233F0097DD70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E98C96F327E5233F0097DD70 /* Build configuration list for PBXNativeTarget "tether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98C96F427E5233F0097DD70 /* Debug */,
+				E98C96F527E5233F0097DD70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E98C96F627E5233F0097DD70 /* Build configuration list for PBXNativeTarget "tetherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98C96F727E5233F0097DD70 /* Debug */,
+				E98C96F827E5233F0097DD70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E98C96F927E5233F0097DD70 /* Build configuration list for PBXNativeTarget "tetherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98C96FA27E5233F0097DD70 /* Debug */,
+				E98C96FB27E5233F0097DD70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E98C96C127E5233F0097DD70 /* Project object */;
+}
