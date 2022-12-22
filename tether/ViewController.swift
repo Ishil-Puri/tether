@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         bkgnd = center.addObserver(forName: UIApplication.didEnterBackgroundNotification, object: nil, queue: nil, using: { note in
 //            self.sendAlert(message: "Please keep app running for full functionality.")
             let content = UNMutableNotificationContent()
-            content.title = NSString.localizedUserNotificationString(forKey: "Tether", arguments: nil)
+            content.title = NSString.localizedUserNotificationString(forKey: "Big Brother", arguments: nil)
             content.body = NSString.localizedUserNotificationString(forKey: "Keep app running for full alarm functionality", arguments: nil)
             content.sound = UNNotificationSound.default
             
@@ -130,6 +130,7 @@ class ViewController: UIViewController {
                 sendAlert(message: "Authentication Failed. Try again.")
                 // Fall back to a asking for username and password.
                 // ...
+                return
             }
         }
     }
